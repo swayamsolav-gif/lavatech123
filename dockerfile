@@ -1,0 +1,7 @@
+FROM mysql:8.0
+
+  # Set environment variables
+  ENV MYSQL_ROOT_PASSWORD=root123
+  ENV MYSQL_DATABASE=mydb
+  ENV MYSQL_USER=user1
+  ENV MYSQL_PASSWORD=USER123
